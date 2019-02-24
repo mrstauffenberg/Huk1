@@ -1,0 +1,149 @@
+#body{
+	border: 2px solid red;
+	background-image: url(6873.jpg);
+	margin: initial;
+
+
+}
+.head-contain{
+	border-bottom: 3px solid;
+	border-color: rgba(61, 61, 41, 20%);
+	
+	display: flex;
+	justify-content: center;
+	height: 120px;
+	font-family: anton;
+	align-content: space-between;
+	align-items: baseline;
+
+
+
+}
+.donate-us{
+	border: 1px solid green;
+
+	background-image: url(donate.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 60px;
+	margin-left: 80px;
+	margin-top: 50px;
+
+
+}
+.logo{
+	border: 1px solid green;
+
+	margin-left: 60px;
+
+	width: 105px;
+	height: 85px;
+	background-image: url(logo.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+
+
+
+}
+.nav{
+	border: 1px solid green;
+	display: flex;
+	width: 400px;
+	height: 40px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	margin-left: 40px;
+	padding-top: 15px;
+
+
+}
+.nav-link{
+
+	margin-left: 7px;
+	text-decoration: none;
+	color: black;
+	}
+.button{
+	font-size: 22px;
+	display: inline;
+	border-right: 1px solid #bbb;
+	padding-right: 10px;
+}
+.button:hover{
+	color: #baba78;
+	transition: 300ms;
+
+}
+
+
+.body{
+	border: 1px solid blue;
+	box-sizing: border-box;
+	width: 100%;
+	height: 480px;
+	margin-top: 10px;
+	
+	display: flex;
+	justify-content: space-evenly;
+
+
+	flex-direction: row;
+
+}
+.body-first{
+	border: 1px solid red;
+	display: flex;
+	flex-shrink: 1;
+	width: 75%;
+	height: 100%;
+	
+	box-sizing: border-box;
+	align-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background: linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 300%);
+}
+.body-content{
+border: 1px solid orange;
+
+	display: flex;
+	flex-basis: 46.5%;
+	flex-shrink: 1;
+	border-radius: 5px;
+align-items: baseline;
+	margin: 10px;
+	width:47%;
+	height: 45%;
+	
+
+}
+.wrap{
+	display: flex;
+	flex-basis: 75%;
+	border: 1px solid;
+	font-family: roboto; 
+	font-weight: 300; 
+	font-style: italic;
+	font-size: 15px;
+	box-shadow: 5px 5px 0 #434323;
+	margin-left: 150px;
+
+
+}
+
+.footer{	
+	/*border: 1px solid black;*/
+
+	display: flex;
+	align-content: stretch;
+	background-color:#434323;
+	border-radius: 2px;
+	width: auto;
+	height: 85px;
+	margin-top:0;
+	font-family: anton;
+	font-size: 50px;
+	text-align: center;
+	opacity: 0.6;
+}
